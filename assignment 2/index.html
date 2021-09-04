@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <title>App</title>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h2>Function without parameters -</h2>
+        <h3 id="message" class="text-muted">Name will get displayed here</h3>
+        <button class="btn-display" onclick="WelcomeMessage();">Display my name</button>
+        <hr/>
+
+        <h2>Function with parameters -</h2>
+        <h3 id="details" class="text-muted">Display the details</h3>
+        <button class="btn-display" onclick="WithParameters('Anurag', 'Hugar', 25);">Display my name</button>
+        <hr/>
+
+        <h2>Function object with parameters -</h2>
+        <h3 id="details2" class="text-muted">Display the details2</h3>
+        <button class="btn-display" onclick="ObjectWithParameters({fname: 'Ishwar', lname: 'Deoolkar', age: 30});">Display my name</button>
+        <hr/>
+
+        <h2>Function with default parameters -</h2>
+        <h3 id="message2" class="text-muted">Name will get displayed here</h3>
+        <button class="btn-display" onclick="DefaultMessage('Hello, Anurag Hugar, Good afternoon...!!!');">Display another name</button>
+        <hr/>
+
+        <h2>Function with person objects -</h2>
+        <h4 id="message3" class="text-muted">Display Fname, Lname, and Age</h4>
+        <h4 id="message4" class="text-muted">Display Hobbies</h4>
+        <button class="btn-display" onclick="PersonDetails();">Display person object</button>
+        <hr/>
+
+        <h2>Display employee details -</h2>
+        <div id="employeeDetails" class="employee-container"></div>
+        
+        <script src="./Js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,225 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bg {
+    background-color: #434A54!important;
+}
+
+.nav-item a:hover {
+    color: #FFB62A!important;
+    background-color: #30363E;
+    transition: 0.8s;
+}
+
+.bg-image {
+    background-image: url(../images/bg-1200x1500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fs-14{
+    font-size: 14px;
+}
+.card-bg{
+    background: rgb(244 237 245 / 75%);
+}
+
+.dark-border {
+    border: solid rgb(138, 138, 138) 1px;
+}
+
+.text-light-blue {
+    color: #00BFF3!important;
+}
+
+.btn-light-blue {
+    color: white;
+    padding:2px 5px;
+    background-color:#00BFF3;
+    transition: all 0.5s ease-in-out;
+}
+.btn-light-blue:hover{
+    color: #fff;
+    background-color: #00BFF3;
+}
+
+.btn-height {
+    height:40px;
+}
+.texarea-comments {
+    resize:none;
+    box-shadow:none;
+    outline:none;
+}
+
+.btn-wh {
+    width:88px;
+    height: 25px;
+}
+.user_profile img{
+    border-radius: 50%;
+}
+.accordion-card{
+    border-bottom:2px solid #fff;
+    
+}
+.accordion-card:last-child{
+     border-bottom:none;
+}
+.accordion-header{
+    background-color: #434A54;
+    padding:6px 8px;
+    transition: all 0.5s ease-in-out;
+}
+.accordion-header:hover{
+    background-color: #30363E;
+}
+.accordion-header h2 > button{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+}
+.accordion-header h2 > button > .count-text{
+    padding-left:20px;
+}
+.accordion-header h2 > button:hover, .accordion-header h2 > button:focus, .accordion-header h2 > button:active:focus{
+    color:#fff;
+    text-decoration:none;
+    outline:none;
+    box-shadow: none;
+}
+.accordion-header h2 > button:hover .svg-icon{
+    border-color:#00BFF3 !important;
+}
+.accordion-header h2 > button:hover .svg-icon svg{
+    fill: #00BFF3;
+}
+.accordion-body .card-body{
+    color: #676a6c;
+    padding:10px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.recent-messages h4, .notification-container h4{
+    font-size: 16px;
+    line-height: 42px;
+    margin:0;
+    color: #434A54;
+    font-weight: 600;
+}
+.recent-messages .card{
+    background-color: transparent;
+    border:none;
+    border-radius: 0;
+    color: #434A54;
+    margin-bottom:15px;
+    border-bottom: 2px solid rgb(138, 138, 138)
+}
+.recent-messages .card > .card-title{
+    margin-bottom:3px;
+    color: #00BFF3;
+}
+.recent-messages .card > .card-body{
+    padding:0px;
+    font-size: 14px;
+}
+.recent-messages .card:last-child{
+    border-bottom:none;
+    margin-bottom:0;
+}
+.notification-list{
+    list-style: none;
+    padding:0;
+}
+.notification-list li{
+    padding:8px 0px;
+    font-size: 14px;
+    border-bottom:2px solid rgb(138, 138, 138)
+}
+.notification-list li:last-child{
+    border-bottom:none;
+}
+.notification-list li > p{
+    color: #878787;
+    margin:0;
+}
+.notification-list li > p > b{
+    font-weight:600;
+    color: #434A54;
+}
+.notification-list li > p > strong{
+    color: #00BFF3;
+}
+.text-muted{
+    color: #878787 !important;
+}
+.media-body p, .media-body h6{
+    color: #434A54;
+}
+.navbar-container .brandname{
+    height:58px;
+}
+.navbar-list{
+    line-height: 39px;
+}
+.navbar-logout{
+    line-height: 57px;
+}
+.navbar-list li.active > a{
+    background-color: #30363E;
+    color: #FFB62A !important;
+    padding-right: 15px !important;
+    padding-left:15px !important;
+}
+.navbar-list li > a{
+    padding-right: 15px !important;
+    padding-left:15px !important;
+}
+.mr-70{
+    margin-right: 70px;
+}
+
+
+.ml-45 {
+    margin-left: 45%;
+}
+
+.ml-44 {
+    margin-left: 44%;
+}
+
+.ml-14 {
+    margin-left: 17%;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+.float-right{
+    float: right;
+}
+
+.circle-icons{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.circle-icons svg{
+    vertical-align: text-top;
+}
+.rotate-icon{
+    transform: rotate(90deg);
+}
+.show-all{
+    text-transform: initial;
+}
+@media(min-width: 320px){
+    .mar-bottom-20{
+        margin-bottom: 20px;
+    }
+}
+@media(min-width: 1200px){
+    .mar-bottom-20{
+        margin-bottom: 0;
+    }
+}

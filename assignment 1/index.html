@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-image">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container nav-bg mt-4 p-0 rounded">
+            <img class="brandname ml-1" src="./images/cflogo.png" alt="brand-logo" width="200px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav navbar-list ml-auto mt-4 mr-70 mt-lg-0">
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link text-white" href="#">Activities</a>
+                    </li>
+                    <li class="nav-item mr-4">
+                        <a class="nav-link  text-white" href="#">Messages</a>
+                    </li>
+                </ul>
+                <div class="form-inline my-2 my-lg-0 mr-5">
+                    <div class="media text-muted pt-0 align-items-center d-flex user_profile">
+                        <img src="images/profile_user.jpeg" alt="32x32" class="mr-2" width="50px" height="50px" />
+                        <p class="media-body  mb-0  border-gray mr-4">
+                            <strong class="d-block text-white">Stella John</strong>
+                        </p>
+                    </div>
+                    <div class="nav-item navbar-logout">
+                        <a class="nav-link py-0 text-white" href="#">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row mt-4">
+            <div class="col-12 col-lg-3 mar-bottom-20">
+                <div class="card card-bg border-0 rounded">
+                    <div class="card-body">
+                        <div class="text-center user_profile">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mt-3 circle" width="80px"
+                                height="80px" />
+                            <strong class="d-block mt-2 mb-2 text-muted font-weight-bold">Stella John</strong>
+                            <button type="button" class="btn btn-light-blue">EDIT PROFILE</span></button>
+                        </div>
+                        <div class="mt-4">
+                            <strong class="text-muted fs-14">Short Bio:</strong>
+                            <p class="fs-14 text-muted">Lorem Ipsum has been the industry's standard dummy text ever
+                                since the
+                                1500s, when an unknown printer</p>
+                            <div class="media text-muted pt-0 align-items-center d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="mr-4"
+                                    fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path
+                                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </svg>
+                                <p class="media-body  mb-0  border-gray mr-4">
+                                    <span class="d-block fs-14">7344 Ivy #8887, <br>
+                                        urmui dollar sit amret</span>
+                                </p>
+                            </div>
+                            <div class="media text-muted mt-2 align-items-center d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="mr-4"
+                                    fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                </svg>
+                                <p class="media-body  mb-0  border-gray mr-4">
+                                    <span class="d-block fs-14">Member since <br>
+                                        November 2010</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 p-0">
+                                <div class="accordion mt-3" id="accordionExample">
+                                    <div class="accordion-card">
+                                        <div id="headingOne" class="accordion-header">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left" type="button"
+                                                    data-toggle="collapse" data-target="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                    Followers <span class="count-text">(34)</span>
+                                                    <span
+                                                        class="float-right d-inline-block svg-icon circle-icons border rounded-circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-chevron-right "
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapseOne" class="collapse accordion-body"
+                                            aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Some placeholder content for the first accordion panel. This panel is
+                                                shown by default, thanks to the <code>.show</code> class.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-card">
+                                        <div id="headingTwo" class="accordion-header">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                    data-toggle="collapse" data-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Following <span class="count-text">(34)</span>
+                                                    <span
+                                                        class="float-right d-inline-block svg-icon circle-icons border rounded-circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-chevron-right"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </h2>
+                                        </div>
+
+                                        <div id="collapseTwo" class="collapse accordion-body"
+                                            aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                Some placeholder content for the second accordion panel. This panel is
+                                                hidden by default.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-card">
+                                        <div id="headingThree" class="accordion-header">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                    data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Trophies <span class="text-light-blue ml-2 show-all"> (Show all)
+                                                    </span> <span class="count-text">(34)</span>
+                                                    <span
+                                                        class="float-right d-inline-block svg-icon circle-icons border rounded-circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-chevron-right"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseThree" class="collapse accordion-body"
+                                            aria-labelledby="headingThree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                And lastly, the placeholder content for the third and final accordion
+                                                panel. This panel is hidden by default.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-card">
+                                        <div id="headingFour" class="accordion-header">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                                    data-toggle="collapse" data-target="#collapseFour"
+                                                    aria-expanded="false" aria-controls="collapseFour">
+                                                    Subscribed activities <span class="count-text">(34)</span>
+                                                    <span
+                                                        class="float-right d-inline-block svg-icon circle-icons border rounded-circle">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                            fill="currentColor" class="bi bi-chevron-right"
+                                                            viewBox="0 0 16 16">
+                                                            <path fill-rule="evenodd"
+                                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                        </svg>
+                                                    </span>
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapseFour" class="collapse accordion-body"
+                                            aria-labelledby="headingFour" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <div class="ml-40">
+                                                    <h6 class="fs-14 font-weight-bold">RUNNING</h6>
+                                                    <h6 class="fs-14 font-weight-bold">WEIGHT LIFTING</h6>
+                                                    <h6 class="fs-14 font-weight-bold">BASKETBALL</h6>
+                                                    <h6 class="fs-14 font-weight-bold">SOFTBALL</h6>
+                                                    <h6 class="fs-14 font-weight-bold">BASEBALL</h6>
+                                                    <h6 class="fs-14 font-weight-bold">TENNIS</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-6 mar-bottom-20">
+                <div class="col-12 p-0 card-bg">
+                    <div>
+                        <h6 class="text-muted text-right p-3 font-weight-bold mb-0">Today, 3.39PM</h6>
+                        <div class="media user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body ">
+                                <h6><span class="mt-0 font-weight-bold">Paul Brunet</span> <span
+                                        class="text-muted font-weight-bold">posted
+                                        in</span> <span class="text-light-blue font-weight-bold ">Running</span></h6>
+                                <p class="mb-0 fs-14">Will you do the same for me? It's time to face the music I'm no
+                                    longer
+                                    your muse. Heard it's
+                                    beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside
+                                    of
+                                    me.
+                                    Heaven is jealous of our love.
+                                </p>
+                                <p class="text-light-blue text-right mb-0 fs-14">Read more <span class="mr-1">></span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="dark-border my-3">
+                        <div class="media mb-2 user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body">
+                                <h6><span class="mt-0 font-weight-bold">Anne Hathaway</span></h6>
+                                <p class="fs-14">Will you do the same for me? It's time to face the music I'm no longer
+                                    your
+                                    muse. Heard it's
+                                    Yeah, you take me to utopia.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="media user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body">
+                                <h6><span class="mt-0 font-weight-bold">Remy Daniel</span> </h6>
+                                <p class="fs-14"> Will you do the same for me? It's time to face the music I'm no longer
+                                    your
+                                    muse. Heard it's
+                                    brom up above. Yeah, you take me to utopia.
+                                </p>
+                                <h6 class="text-light-blue text-right mb-3 fs-14">More Comments <span
+                                        class="mr-1">></span></h6>
+                            </div>
+                        </div>
+                        <div class="bg-dark col-12 d-flex p-4">
+                            <h6 class="text-white mt-4 mr-3 font-weight-bold">Comments</h6>
+                            <textarea rows="2" cols="1" class="form-control mr-3 py-2 texarea-comments"
+                                placeholder="write your comments here" aria-label="Search"></textarea>
+                            <button type="button" class="btn btn-light-blue px-4 btn-height mt-2">Post</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="text-muted text-right p-3 font-weight-bold">Today, 3.39PM</h6>
+                        <div class="media user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body">
+                                <h6>
+                                    <span class="mt-0 font-weight-bold">Paul Brunet</span><span
+                                        class="text-muted font-weight-bold">posted in</span>
+                                    <span class="text-light-blue font-weight-bold ">Baseball</span>
+                                </h6>
+                                <p class="mb-0 fs-14">Will you do the same for me? It's time to face the music I'm no
+                                    longer your muse. Heard it's
+                                    beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside
+                                    of
+                                    me. Heaven is jealous of our love, angels are crying from up above.
+                                </p>
+                                <p class="text-light-blue text-right mb-0 fs-14">Read more <span class="mr-1">></span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="dark-border mx-3">
+                        <div class="media mb-2 user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body">
+                                <h6><span class="mt-0 font-weight-bold">Anne Hathaway</span></h6>
+                                <p class="fs-14">Will you do the same for me? It's time to face the music I'm no longer
+                                    your
+                                    muse. Heard it's
+                                    Yeah, you take me to utopia.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="media user_profile px-3">
+                            <img src="images/profile_user.jpeg" alt="32x32" class="mr-3" width="50px" height="50px" />
+                            <div class="media-body">
+                                <h6><span class="mt-0 font-weight-bold">Remy Daniel</span> </h6>
+                                <p class="fs-14"> Will you do the same for me? It's time to face the music I'm no longer
+                                    your
+                                    muse. Heard it's
+                                    brom up above. Yeah, you take me to utopia.
+                                </p>
+                                <h6 class="text-light-blue text-right mb-3 fs-14">More Comments <span
+                                        class="mr-1">></span></h6>
+                            </div>
+                        </div>
+                        <div class="bg-dark col-12 d-flex p-4">
+                            <h6 class="text-white mt-4 mr-3 font-weight-bold">Comments</h6>
+                            <textarea rows="2" cols="1" class="form-control mr-3 py-2 texarea-comments"
+                                placeholder="write your comments here" aria-label="Search"></textarea>
+                            <button type="button" class="btn btn-light-blue px-4 btn-height mt-2">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3">
+                <div class="col-md-12 mb-4 card-bg rounded notification-container">
+                    <h4>Notifications</h4>
+                    <ul class="notification-list">
+                        <li>
+                            <p><strong>John</strong> commented : <b>It was really helpful and..</b> on you post
+                                <strong>'5 ways to success fully...'</strong>In <strong>Running</strong></p>
+                            <p class="text-right">15 min Before</p>
+                        </li>
+                        <li>
+                            <p><strong>John</strong> commented : <b>It was really helpful and..</b> on you post
+                                <strong>'5 ways to success fully...'</strong>In <strong>Running</strong></p>
+                            <p class="text-right">1 Hour Before</p>
+                        </li>
+                        <li>
+                            <p><strong>John</strong> commented : <b>It was really helpful and..</b> on you post
+                                <strong>'5 ways to success fully...'</strong>In <strong>Running</strong></p>
+                            <p class="text-right">Yesterday</p>
+                        </li>
+                        <li>
+                            <p><strong>John</strong> commented : <b>It was really helpful and..</b> on you post
+                                <strong>'5 ways to success fully...'</strong>In <strong>Running</strong></p>
+                            <p class="text-right">2 Days Before</p>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-12 card-bg rounded recent-messages">
+                    <h4>Recent Messages</h4>
+                    <div class="card mb-3">
+                        <div class="card-title">Remy Daniel</div>
+                        <div class="card-body">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.
+                            <p>
+                            <div class="text-right mb-2">
+                                <button class="btn btn-light-blue">Reply</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Paul Brunet</div>
+                        <div class="card-body">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s.</p>
+                            <div class="text-right mb-2">
+                                <button class="btn btn-light-blue">Reply</button>
+                                <hr class="dark-border ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js">
+    </script>
+    <script>
+
+        $('.accordion-header > h2 > button').click(function () {
+            $(this).children('.circle-icons').children('svg').toggleClass('rotate-icon');
+        });
+    </script>
+</body>
+
+</html>
